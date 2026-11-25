@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.DS_Store
+
+# local data (download separately)
+data/ufft/
+data/**/*.csv
+data/**/*.zip
+
+# training outputs
+outputs/
+*.pth
+*.pt
+
+# notebooks / editor
+.ipynb_checkpoints/
+.idea/
+.vscode/
